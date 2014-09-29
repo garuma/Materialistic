@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.21.0.0-rc1\lib\MonoAndroid10\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -52,11 +55,13 @@
     <Compile Include="Views\NullDrawable.cs" />
     <Compile Include="RippleFeedbackLayout.cs" />
     <Compile Include="AnimatedDrawableActivity.cs" />
+    <Compile Include="InkResponseActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -114,6 +119,11 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\btn_add_remove_006.png" />
     <AndroidResource Include="Resources\drawable\btn_add_minus_anim.xml" />
     <AndroidResource Include="Resources\layout\AnimatedDrawableLayout.axml" />
+    <AndroidResource Include="Resources\drawable-nodpi\monkey1.jpg" />
+    <AndroidResource Include="Resources\drawable-nodpi\monkey2.jpg" />
+    <AndroidResource Include="Resources\drawable-nodpi\monkey3.jpg" />
+    <AndroidResource Include="Resources\layout\InkResponseLayout.axml" />
+    <AndroidResource Include="Resources\anim\paper_state_list_anim_material.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -124,5 +134,6 @@
     <Folder Include="Resources\drawable\" />
     <Folder Include="Views\" />
     <Folder Include="Resources\drawable-nodpi\" />
+    <Folder Include="Resources\anim\" />
   </ItemGroup>
 </Project>

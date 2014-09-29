@@ -32,8 +32,9 @@ namespace EvolveMaterialDesign
 
 			btns[0].Click += (sender, e) => StartActivity (typeof(LayoutActivity));
 			btns[1].Click += (sender, e) => StartActivity (typeof(RippleFeedbackLayout));
+			btns[2].Click += (sender, e) => StartActivity (typeof(InkResponseActivity));
 			btns[3].Click += (sender, e) => StartActivity (typeof(AnimatedDrawableActivity));
-			btns[2].Click += (sender, e) => MakeStartAnimations (btns);
+			//btns[2].Click += (sender, e) => MakeStartAnimations (btns);
 
 			MakeStartAnimations (btns);
 		}

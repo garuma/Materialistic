@@ -13,14 +13,14 @@ using Android.Widget;
 
 namespace EvolveMaterialDesign
 {
-	[Activity (Label = "Animated Drawable", Icon = "@drawable/icon", Theme = "@style/EvolveMaterialTheme")]
-	public class AnimatedDrawableActivity : Activity
+	[Activity (Label = "Monkey Brewing Company", Icon = "@drawable/icon", Theme = "@style/EvolveMaterialTheme")]
+	public class InkResponseActivity : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			SetContentView (Resource.Layout.AnimatedDrawableLayout);
+			SetContentView (Resource.Layout.InkResponseLayout);
 		}
 	}
 }
