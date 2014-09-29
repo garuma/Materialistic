@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Favorite Talks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:minHeight="48dp"
+        style="@android:style/TextAppearance.Material.Caption"
+        android:layout_marginLeft="16dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="middle"
+        android:divider="@drawable/spaced_list_divider">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="72dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/avatarView1"
+                android:layout_gravity="center"
+                android:layout_marginRight="16dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+                <TextView
+                    android:text="Material Design Concepts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Subhead"
+                    android:layout_marginBottom="2dp" />
+                <TextView
+                    android:text="James Montemagno / Jérémie Laval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Body1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="72dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/avatarView2"
+                android:layout_gravity="center"
+                android:layout_marginRight="16dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+                <TextView
+                    android:text="C# In My Ears and My Eyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Subhead"
+                    android:layout_marginBottom="2dp" />
+                <TextView
+                    android:text="Chris Hardy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Body1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="72dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/avatarView3"
+                android:layout_gravity="center"
+                android:layout_marginRight="16dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+                <TextView
+                    android:text="Effective Navigation in Android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Subhead"
+                    android:layout_marginBottom="2dp" />
+                <TextView
+                    android:text="James Montemagno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Body1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="72dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/avatarView4"
+                android:layout_gravity="center"
+                android:layout_marginRight="16dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+                <TextView
+                    android:text="Mastering Time and Space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Subhead"
+                    android:layout_marginBottom="2dp" />
+                <TextView
+                    android:text="Jérémie Laval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/item_text_primary"
+                    style="@android:style/TextAppearance.Material.Body1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

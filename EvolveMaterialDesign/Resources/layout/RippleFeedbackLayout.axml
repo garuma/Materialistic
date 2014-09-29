@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:id="@+id/panel1"
+        android:layout_weight="1">
+        <Button
+            android:text="I'm a default button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_gravity="center"
+            android:padding="24dp" />
+    </FrameLayout>
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:id="@+id/panel2"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1">
+            <ImageButton
+                android:src="@drawable/bread_cat"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton1"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_margin="32dp" />
+            <ImageButton
+                android:src="@drawable/tortilla_cat"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton2"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:layout_weight="1"
+                android:layout_margin="32dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:id="@+id/panel3"
+        android:layout_weight="1">
+        <Button
+            android:text="Custom Mask"
+            android:layout_width="164dp"
+            android:layout_height="164dp"
+            android:id="@+id/button2"
+            android:background="@drawable/monkey_ripple"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</LinearLayout>

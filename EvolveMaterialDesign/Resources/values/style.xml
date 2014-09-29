@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Colors -->
+    <color name="material_blue_500">#ff4285f4</color>
+    <color name="material_blue_700">#ff3367d6</color>
+	<color name="deep_purple_A200">#e040fb</color>
+
+	<color name="primary">@color/material_blue_500</color>
+	<color name="primary_dark">@color/material_blue_700</color>
+	<color name="accent">@color/deep_purple_A200</color>
+
+	<color name="main_green">#9ccc65</color>
+	<color name="main_red">#e84e40</color>
+
+	<!-- Styles -->
+	<style name="EvolveMaterialTheme" parent="android:Theme.Material.Light.DarkActionBar">
+    	<item name="android:colorPrimary">@color/primary</item>
+	    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+	    <item name="android:colorAccent">@color/accent</item>
+	</style>
+</resources>

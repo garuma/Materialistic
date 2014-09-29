@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@+id/removeState">
+        <bitmap android:src="@drawable/btn_add_remove_006" android:tint="@color/main_red" />
+    </item>
+    <item android:id="@+id/addState">
+        <bitmap android:src="@drawable/btn_add_remove_000" android:tint="@color/main_green" />
+    </item>
+    <transition android:fromId="@+id/addState" android:toId="@+id/removeState">
+        <animation-list android:oneshot="true">
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_000" android:tint="@color/main_green" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_001" android:tint="@color/main_green" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_002" android:tint="@color/main_green" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_003" android:tint="@color/main_red" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_004" android:tint="@color/main_red" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_005" android:tint="@color/main_red" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:fromId="@+id/removeState" android:toId="@+id/addState">
+        <animation-list android:oneshot="true">
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_006" android:tint="@color/main_red" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_005" android:tint="@color/main_red" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_004" android:tint="@color/main_red" />
+            </item>
+            <item android:duration="10"	>
+                <bitmap android:src="@drawable/btn_add_remove_003" android:tint="@color/main_green" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_002" android:tint="@color/main_green" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/btn_add_remove_001" android:tint="@color/main_green" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>
+
