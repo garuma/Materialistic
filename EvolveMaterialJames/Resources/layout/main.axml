@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <Button
+            android:id="@+id/layoutBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Material Dark"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_variant1" />
+        <Button
+            android:text="Material Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rippleBtn"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_variant2" />
+        <Button
+            android:text="Material Light Themed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inkBtn"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_variant3" />
+        <Button
+            android:text="Palette"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drawableAnimBtn"
+            android:background="@drawable/btn_variant4" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+ <!-- inherit from the material theme -->
+
+ 	<color name="material_blue_500">#ff4285f4</color>
+    <color name="material_blue_700">#ff3367d6</color>
+	<color name="deep_purple_A200">#e040fb</color>
+
+	<color name="primary">@color/material_blue_500</color>
+	<color name="primary_dark">@color/material_blue_700</color>
+	<color name="accent">@color/deep_purple_A200</color>
+
+	<color name="main_green">#9ccc65</color>
+	<color name="main_red">#e84e40</color>
+
+	<style name="EvolveMaterialTheme" parent="android:Theme.Material">
+    	<item name="android:colorPrimary">@color/primary</item>
+	    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+	    <item name="android:colorAccent">@color/accent</item>
+	</style>
+
+  <style name="MaterialLight" parent="android:Theme.Material.Light">
+  </style>
+
+  <style name="MaterialDark" parent="android:Theme.Material">
+  </style>
+
+   <style name="AppThemeLight" parent="android:Theme.Material.Light">
+    <!-- Main theme colors -->
+    <!--   your app's branding color (for the app bar) -->
+    <item name="android:colorPrimary">@color/xam_blue</item>
+    <!--   darker variant of colorPrimary -->
+    <item name="android:colorPrimaryDark">@color/xam_dark_blue</item>
+    <!--   theme UI controls like checkboxes and text fields -->
+    <item name="android:colorAccent">@color/xam_purple</item>
+  </style>
+
+
+
+  <style name="CardView.XamBlue">
+	    <item name="cardBackgroundColor">@color/xam_blue</item>
+  </style>
+
+  <style name="CardView.XamPurple">
+	    <item name="cardBackgroundColor">@color/xam_purple</item>
+  </style>
+
+  <style name="CardView.XamGreen">
+	    <item name="cardBackgroundColor">@color/xam_green</item>
+  </style>
+
+   <color name="xam_dark_blue">#2C3E50</color>
+  <color name="xam_purple">#B455B6</color>
+  <color name="xam_blue">#3498DB</color>
+  <color name="xam_green">#77D065</color>
+  <color name="xam_light_gray">#B4BCBC</color>
+  <color name="xam_gray">#738182</color>
+  <color name="xam_medium_blue">#2980B9</color>
+	<color name="color_1">#E91E63</color>
+	<color name="color_2">#673AB7</color>
+
+</resources>
