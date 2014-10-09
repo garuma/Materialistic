@@ -15,27 +15,42 @@ using Android.Views.Animations;
 namespace EvolveMaterialDesign
 {
 	[Activity (Label = "Materialistic", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/EvolveMaterialTheme")]	
-	public class MainActivity : Activity
+	public class MainActivity : Activity, ViewTreeObserver.IOnGlobalLayoutListener
 	{
+		Button[] btns;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
 			SetContentView (Resource.Layout.Main);
 
-			var btns = new int[] {
+			this.btns = new int[] {
 				Resource.Id.layoutBtn,
+				Resource.Id.paperCraftBtn,
 				Resource.Id.rippleBtn,
 				Resource.Id.inkBtn,
 				Resource.Id.drawableAnimBtn
 			}.Select (FindViewById<Button>).ToArray ();
 
 			btns[0].Click += (sender, e) => StartActivity (typeof(LayoutActivity));
-			btns[1].Click += (sender, e) => StartActivity (typeof(RippleFeedbackLayout));
-			btns[2].Click += (sender, e) => StartActivity (typeof(InkResponseActivity));
-			btns[3].Click += (sender, e) => StartActivity (typeof(AnimatedDrawableActivity));
-			//btns[2].Click += (sender, e) => MakeStartAnimations (btns);
+			btns[1].Click += (sender, e) => StartActivity (typeof(PaperCraftActivity));
+			btns[2].Click += (sender, e) => StartActivity (typeof(RippleFeedbackLayout));
+			btns[3].Click += (sender, e) => StartActivity (typeof(InkResponseActivity));
+			btns[4].Click += (sender, e) => StartActivity (typeof(AnimatedDrawableActivity));
 
+			ContentView.ViewTreeObserver.AddOnGlobalLayoutListener (this);
+		}
+
+		View ContentView {
+			get {
+				return FindViewById (Android.Resource.Id.Content);
+			}
+		}
+
+		public void OnGlobalLayout ()
+		{
+			ContentView.ViewTreeObserver.RemoveGlobalOnLayoutListener (this);
 			MakeStartAnimations (btns);
 		}
 
@@ -43,7 +58,7 @@ namespace EvolveMaterialDesign
 		{
 			for (int i = 0; i < btns.Length; i++) {
 				var anim = PrepareAnimation (btns [i], (i % 2) == 0 ? -1 : 1);
-				anim.StartDelay = i * 75 + 10;
+				anim.StartDelay = i * 100;
 				anim.Start ();
 			}
 		}
