@@ -8,7 +8,7 @@ using Android.Widget;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "Explode 2", ParentActivity=typeof(MainActivity), Theme="@style/TransparentTheme")]			
+	[Activity (Label = "Explode 2", ParentActivity=typeof(MainActivity),Theme = "@style/AppThemeLight")]			
 	public class AnimationsActivity2 : Activity
 	{
 		PhotoItem item;
@@ -36,6 +36,12 @@ namespace AndroidLSamples
 
 			var image = FindViewById<ImageView> (Resource.Id.image);
 			image.SetImageResource (item.Image);
+
+			var name = FindViewById<TextView> (Resource.Id.name);
+
+
+			name.Text =  item.Name;
+			ActionBar.Title = item.Author;
 		}
 	}
 }

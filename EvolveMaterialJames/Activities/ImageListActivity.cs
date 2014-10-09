@@ -14,7 +14,7 @@ using AndroidLSamples.Utils;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "Bassnectar", ParentActivity=typeof(MainActivity), Theme = "@style/EvolveMaterialTheme")]			
+	[Activity (Label = "Bassnectar", ParentActivity=typeof(MainActivity), Theme = "@style/AppThemeLight")]			
 	public class ImageListActivity : Activity
 	{
 		GridView grid;
@@ -63,11 +63,11 @@ namespace AndroidLSamples
 		public override View GetView (int position, View convertView, ViewGroup parent)
 		{
 			if (convertView == null)
-				convertView = context.LayoutInflater.Inflate (Resource.Layout.palette_item, null);
+				convertView = context.LayoutInflater.Inflate (Resource.Layout.grid_item, null);
 
 			var item = Photos.Items[position];
-			convertView.FindViewById<ImageView> (Resource.Id.imageview_item).SetImageResource (item.Image);
-			convertView.FindViewById<TextView> (Resource.Id.textview_name).Text = item.Name;
+			convertView.FindViewById<ImageView> (Resource.Id.imageView).SetImageResource (item.Image);
+			convertView.FindViewById<TextView> (Resource.Id.textView).Text = item.Name;
 
 			return convertView;
 		}

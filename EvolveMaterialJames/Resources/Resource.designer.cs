@@ -376,8 +376,8 @@ namespace AndroidLSamples
 			// aapt resource value: 0x7f0b0023
 			public const int layoutBtn = 2131427363;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int main_layout = 2131427333;
+			// aapt resource value: 0x7f0b0006
+			public const int main_layout = 2131427334;
 			
 			// aapt resource value: 0x7f0b0028
 			public const int move = 2131427368;
@@ -385,8 +385,8 @@ namespace AndroidLSamples
 			// aapt resource value: 0x7f0b0013
 			public const int my_view = 2131427347;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int name = 2131427334;
+			// aapt resource value: 0x7f0b0002
+			public const int name = 2131427330;
 			
 			// aapt resource value: 0x7f0b0019
 			public const int radioButton1 = 2131427353;
@@ -436,14 +436,14 @@ namespace AndroidLSamples
 			// aapt resource value: 0x7f0b001e
 			public const int toggleButton1 = 2131427358;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int view1 = 2131427330;
-			
 			// aapt resource value: 0x7f0b0003
-			public const int view3 = 2131427331;
+			public const int view1 = 2131427331;
 			
 			// aapt resource value: 0x7f0b0004
-			public const int view4 = 2131427332;
+			public const int view3 = 2131427332;
+			
+			// aapt resource value: 0x7f0b0005
+			public const int view4 = 2131427333;
 			
 			static Id()
 			{
@@ -557,6 +557,9 @@ namespace AndroidLSamples
 			// aapt resource value: 0x7f070006
 			public const int AppThemeLight = 2131165190;
 			
+			// aapt resource value: 0x7f070007
+			public const int AppThemeLightNoDrop = 2131165191;
+			
 			// aapt resource value: 0x7f070000
 			public const int CardView = 2131165184;
 			
@@ -566,14 +569,14 @@ namespace AndroidLSamples
 			// aapt resource value: 0x7f070002
 			public const int CardView_Light = 2131165186;
 			
-			// aapt resource value: 0x7f070007
-			public const int CardView_XamBlue = 2131165191;
+			// aapt resource value: 0x7f070008
+			public const int CardView_XamBlue = 2131165192;
+			
+			// aapt resource value: 0x7f07000a
+			public const int CardView_XamGreen = 2131165194;
 			
 			// aapt resource value: 0x7f070009
-			public const int CardView_XamGreen = 2131165193;
-			
-			// aapt resource value: 0x7f070008
-			public const int CardView_XamPurple = 2131165192;
+			public const int CardView_XamPurple = 2131165193;
 			
 			// aapt resource value: 0x7f070003
 			public const int EvolveMaterialTheme = 2131165187;
@@ -584,11 +587,11 @@ namespace AndroidLSamples
 			// aapt resource value: 0x7f070004
 			public const int MaterialLight = 2131165188;
 			
-			// aapt resource value: 0x7f07000a
-			public const int TransparentTheme = 2131165194;
-			
 			// aapt resource value: 0x7f07000b
-			public const int TransparentTheme_ActionBar = 2131165195;
+			public const int TransparentTheme = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public const int TransparentTheme_ActionBar = 2131165196;
 			
 			static Style()
 			{

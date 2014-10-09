@@ -52,7 +52,7 @@ namespace AndroidLSamples
 			};
 			btns[3].Click += (sender, e) => StartActivity (typeof(ImageListActivity));
 			btns [4].Click += (sender, e) => StartActivity (typeof(AnimationsActivity1)); 
-			btns [4].Click += (sender, e) => StartActivity (typeof(AnimationsActivity2));
+			btns [5].Click += (sender, e) => StartActivity (typeof(AnimationsActivityMoveImage1));
 
 			MakeStartAnimations (btns);
 		}

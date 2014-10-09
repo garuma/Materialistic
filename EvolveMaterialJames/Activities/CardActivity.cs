@@ -3,7 +3,7 @@ using Android.OS;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "CardView Sample", ParentActivity=typeof(MainActivity))]			
+	[Activity (Label = "CardView Sample", ParentActivity=typeof(MainActivity), Theme = "@style/AppThemeLight")]			
 	public class CardActivity : Activity
 	{
 		protected override void OnCreate (Bundle bundle)

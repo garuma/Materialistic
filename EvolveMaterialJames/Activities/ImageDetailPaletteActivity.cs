@@ -12,7 +12,7 @@ using Android.Graphics.Drawables;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "Palette Example", ParentActivity=typeof(MainActivity), Theme = "@style/EvolveMaterialTheme")]			
+	[Activity (Label = "Palette Example", ParentActivity=typeof(MainActivity), Theme = "@style/AppThemeLightNoDrop")]			
 	public class ImageDetailPaletteActivity : Activity, Palette.IPaletteAsyncListener
 	{
 		PhotoItem item;
@@ -70,17 +70,22 @@ namespace AndroidLSamples
 			if (palette.LightVibrantColor != null) {
 				var lightVibrant = new Color (palette.LightVibrantColor.Rgb);
 				name.SetBackgroundColor(lightVibrant);
-				ActionBar.SetBackgroundDrawable (new ColorDrawable (new Color(lightVibrant)));
+				var color = new Color (lightVibrant);
+				ActionBar.SetBackgroundDrawable (new ColorDrawable(color));
+
+				Window.SetStatusBarColor (color);
 			}
 
 			if (palette.DarkVibrantColor != null) {
 				var darkVibrant = new Color (palette.DarkVibrantColor.Rgb);
-
+				name.SetTextColor (darkVibrant);
 				var actionBarTitleId = Android.Content.Res.Resources.System.GetIdentifier ("action_bar_title", "id", "android");
 				if (actionBarTitleId > 0) {
 					var title = FindViewById<TextView> (actionBarTitleId);
 					if (title != null)
 						title.SetTextColor (darkVibrant);
+
+
 				}
 
 				var view = FindViewById (Resource.Id.main_layout);

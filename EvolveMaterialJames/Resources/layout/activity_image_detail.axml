@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:background="#ddd"
         android:maxLines="1"
-        android:padding="16dp" />
+        android:padding="16dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Title" />
     <androidlsamples.utils.HeightAdjustableImageView
         android:id="@+id/image"
         android:layout_width="match_parent"

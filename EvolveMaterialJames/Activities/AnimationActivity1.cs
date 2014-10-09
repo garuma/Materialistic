@@ -11,7 +11,7 @@ using AndroidLSamples.Utils;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "Explode", ParentActivity=typeof(MainActivity))]
+	[Activity (Label = "Explode", ParentActivity=typeof(MainActivity),Theme = "@style/AppThemeLight")]
 	public class AnimationsActivity1 : Activity
 	{
 	
@@ -37,7 +37,7 @@ namespace AndroidLSamples
 
 			grid.Adapter = new GridAdapter (this);
 			grid.ItemClick += (sender, e) => {
-				var intent = new Intent(this, typeof(AnimationsActivityMoveImage1));
+				var intent = new Intent(this, typeof(AnimationsActivity2));
 				intent.PutExtra("id", Photos.Items[e.Position].Id);
 				StartActivity(intent);
 			};

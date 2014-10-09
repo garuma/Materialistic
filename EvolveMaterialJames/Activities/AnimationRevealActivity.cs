@@ -14,7 +14,7 @@ using Android.Animation;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "Reveal Demo")]			
+	[Activity (Label = "Reveal Demo", Theme = "@style/AppThemeLight")]			
 	public class AnimationRevealActivity : Activity
 	{
 		View myView;

@@ -28,11 +28,23 @@
    <style name="AppThemeLight" parent="android:Theme.Material.Light">
     <!-- Main theme colors -->
     <!--   your app's branding color (for the app bar) -->
-    <item name="android:colorPrimary">@color/xam_blue</item>
+    <item name="android:colorPrimary">@color/primary</item>
     <!--   darker variant of colorPrimary -->
-    <item name="android:colorPrimaryDark">@color/xam_dark_blue</item>
+    <item name="android:colorPrimaryDark">@color/primary_dark</item>
     <!--   theme UI controls like checkboxes and text fields -->
-    <item name="android:colorAccent">@color/xam_purple</item>
+    <item name="android:colorAccent">@color/accent</item>
+  </style>
+
+
+   <style name="AppThemeLightNoDrop" parent="android:Theme.Material.Light">
+    <!-- Main theme colors -->
+    <!--   your app's branding color (for the app bar) -->
+    <item name="android:colorPrimary">@color/primary</item>
+    <!--   darker variant of colorPrimary -->
+    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+    <!--   theme UI controls like checkboxes and text fields -->
+    <item name="android:colorAccent">@color/accent</item>
+ 	<item name="android:windowContentOverlay">@null</item>
   </style>
 
 
