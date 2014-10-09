@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Transitions;
+using AndroidLSamples.Utils;
 
 namespace AndroidLSamples
 {
@@ -14,42 +15,34 @@ namespace AndroidLSamples
 	public class AnimationsActivity1 : Activity
 	{
 	
-		int count;
+		GridView grid;
 		protected override void OnCreate (Bundle bundle)
 		{
-			if ((int)Build.VERSION.SdkInt >= 20) {
-				//Will request content Transitions with the Explode Transition
-				//This can also be specified in the Style
-				Window.RequestFeature (WindowFeatures.ContentTransitions);
-				Window.EnterTransition = new Explode ();
-				Window.ExitTransition = new Explode ();
-				Window.AllowExitTransitionOverlap = true;
-				Window.AllowEnterTransitionOverlap = true;
-			}
-			base.OnCreate (bundle);
 
-			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.activity_animations_1);
+			//Will request content Transitions with the Explode Transition
+			//This can also be specified in the Style
+			Window.RequestFeature (WindowFeatures.ContentTransitions);
+			Window.EnterTransition = new Explode ();
+			Window.ExitTransition = new Explode ();
+			Window.AllowExitTransitionOverlap = true;
+			Window.AllowEnterTransitionOverlap = true;
+
+			base.OnCreate (bundle);
+			SetContentView (Resource.Layout.activity_image_list);
 			ActionBar.SetDisplayHomeAsUpEnabled (true);
 			ActionBar.SetDisplayShowHomeEnabled (true);
 			ActionBar.SetIcon (Android.Resource.Color.Transparent);
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
-			};
 
-			var xamarin = FindViewById<ImageView> (Resource.Id.xamarin);
-			xamarin.Click += (sender, e) => 
-			{
-				var intent = new Intent(this, typeof(AnimationsActivity2));
+			grid = FindViewById<GridView> (Resource.Id.grid);
+
+			grid.Adapter = new GridAdapter (this);
+			grid.ItemClick += (sender, e) => {
+				var intent = new Intent(this, typeof(AnimationsActivityMoveImage1));
+				intent.PutExtra("id", Photos.Items[e.Position].Id);
 				StartActivity(intent);
 			};
 
-		
-
+			// Create your application here
 		}
 	}
 }

@@ -59,4 +59,18 @@
 	<color name="color_1">#E91E63</color>
 	<color name="color_2">#673AB7</color>
 
+	<!-- Application theme. -->
+	<style name="TransparentTheme" parent="@android:style/Theme.Material">
+		<item name="android:windowActionBarOverlay">true</item>
+		<item name="android:actionBarStyle">@style/TransparentTheme.ActionBar</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowTranslucentNavigation">true</item>
+	    <item name="android:windowTranslucentStatus">true</item>
+	</style>
+	<style name="TransparentTheme.ActionBar" parent="android:Widget.Material.ActionBar">
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:backgroundStacked">@android:color/transparent</item>
+		<item name="android:displayOptions">showTitle</item>
+  </style>
 </resources>

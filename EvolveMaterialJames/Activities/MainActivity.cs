@@ -27,7 +27,9 @@ namespace AndroidLSamples
 				Resource.Id.layoutBtn,
 				Resource.Id.rippleBtn,
 				Resource.Id.inkBtn,
-				Resource.Id.drawableAnimBtn
+				Resource.Id.drawableAnimBtn,
+				Resource.Id.explode,
+				Resource.Id.move
 			}.Select (FindViewById<Button>).ToArray ();
 
 			btns[0].Click += (sender, e) => 
@@ -48,8 +50,9 @@ namespace AndroidLSamples
 				intent.PutExtra("theme", 2);
 				StartActivity (intent);
 			};
-			//btns[3].Click += (sender, e) => StartActivity (typeof(AnimatedDrawableActivity));
-			//btns[2].Click += (sender, e) => MakeStartAnimations (btns);
+			btns[3].Click += (sender, e) => StartActivity (typeof(ImageListActivity));
+			btns [4].Click += (sender, e) => StartActivity (typeof(AnimationsActivity1)); 
+			btns [4].Click += (sender, e) => StartActivity (typeof(AnimationsActivity2));
 
 			MakeStartAnimations (btns);
 		}

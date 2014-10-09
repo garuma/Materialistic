@@ -4,11 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/main_layout">
-    <androidlsamples.utils.HeightAdjustableImageView
-        android:id="@+id/image"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
@@ -16,6 +11,11 @@
         android:background="#ddd"
         android:maxLines="1"
         android:padding="16dp" />
+    <androidlsamples.utils.HeightAdjustableImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
     <Button
         android:id="@+id/apply_palette"
         android:text="Apply Palette"

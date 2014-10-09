@@ -39,5 +39,17 @@
             android:layout_height="wrap_content"
             android:id="@+id/drawableAnimBtn"
             android:background="@drawable/btn_variant4" />
+        <Button
+            android:text="Explode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/explode"
+            android:background="@drawable/btn_variant3" />
+        <Button
+            android:text="Move Transition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/move"
+            android:background="@drawable/btn_variant2" />
     </LinearLayout>
 </FrameLayout>

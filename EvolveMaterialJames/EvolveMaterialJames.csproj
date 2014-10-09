@@ -68,13 +68,11 @@
     <Compile Include="Activities\CardActivity.cs" />
     <Compile Include="Activities\ImageDetailPaletteActivity.cs" />
     <Compile Include="Activities\ImageListActivity.cs" />
-    <Compile Include="Activities\NotificationsActivity.cs" />
     <Compile Include="Activities\RecyclerViewActivity.cs" />
     <Compile Include="Activities\RecyclerViewActivityAddRemove.cs" />
     <Compile Include="Activities\ThemesActivity.cs" />
     <Compile Include="Activities\AnimationActivityMoveImage1.cs" />
     <Compile Include="Activities\AnimationActivityMoveImage2.cs" />
-    <Compile Include="Activities\EvelvationActivity.cs" />
     <Compile Include="Activities\AnimationRevealActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
   </ItemGroup>
@@ -123,7 +121,6 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_notification.png" />
     <AndroidResource Include="Resources\menu\menu1.xml" />
     <AndroidResource Include="Resources\menu\menu2.xml" />
-    <AndroidResource Include="Resources\layout\activity_elevation.axml" />
     <AndroidResource Include="Resources\values\arrays.xml" />
     <AndroidResource Include="Resources\layout\activity_reveal.axml" />
     <AndroidResource Include="Resources\drawable\monkey.png" />
@@ -147,6 +144,9 @@
     <AndroidResource Include="Resources\drawable-hdpi\btn_mtrl_alpha.9.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\btn_mtrl_alpha.9.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\btn_mtrl_alpha.9.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\bass7.jpg" />
+    <AndroidResource Include="Resources\drawable-nodpi\bass6.jpg" />
+    <AndroidResource Include="Resources\drawable-nodpi\bass5.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

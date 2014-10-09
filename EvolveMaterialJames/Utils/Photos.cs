@@ -20,15 +20,14 @@ namespace AndroidLSamples.Utils
 		static Photos()
 		{
 			Items = new List<PhotoItem> ();
-			Items.Add(new PhotoItem{ Name="Flying in the Light", Author = "Romain Guy", Image = Resource.Drawable.flying_in_the_light_large});
-			Items.Add(new PhotoItem{ Name="Caterpillar", Author = "Romain Guy", Image =  Resource.Drawable.caterpiller});
-			Items.Add(new PhotoItem{ Name="Look Me in the Eye", Author = "Romain Guy", Image = Resource.Drawable.look_me_in_the_eye});
-			Items.Add(new PhotoItem{ Name="Balloons", Author = "Romain Guy", Image =  Resource.Drawable.sample2});
-			Items.Add(new PhotoItem{ Name="Rainbow", Author = "Romain Guy", Image =  Resource.Drawable.rainbow});
-			Items.Add(new PhotoItem{ Name="Over there", Author = "Romain Guy", Image =  Resource.Drawable.over_there});
-			Items.Add(new PhotoItem{ Name="Jelly Fish 2", Author = "Romain Guy", Image =  Resource.Drawable.jelly_fish_2});
-			Items.Add(new PhotoItem{ Name="Lone Pine Sunset", Author = "Romain Guy", Image =  Resource.Drawable.lone_pine_sunset});
-		}
+			Items.Add(new PhotoItem{ Name="Immersive Music Mixtape Side Two", Author = "Bassnectar", Image = Resource.Drawable.bass1});
+			Items.Add(new PhotoItem{ Name="Noise vs Beauty", Author = "Bassnectar", Image =  Resource.Drawable.bass2});
+			Items.Add(new PhotoItem{ Name="Immersive Music Mixtape Side Two", Author = "Bassnectar", Image = Resource.Drawable.bass3});
+			Items.Add(new PhotoItem{ Name="Freestyle Mixtape", Author = "Bassnectar", Image =  Resource.Drawable.bass4});
+			Items.Add(new PhotoItem{ Name="Vava Voom", Author = "Bassnectar", Image =  Resource.Drawable.bass5});
+			Items.Add(new PhotoItem{ Name="Cozza Frenzy", Author = "Bassnectar", Image = Resource.Drawable.bass6});
+			Items.Add(new PhotoItem{ Name="Divergent Spectrum", Author = "Bassnectar", Image =  Resource.Drawable.bass7});
+			}
 
 		public static PhotoItem GetPhoto(int id)
 		{

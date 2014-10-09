@@ -14,7 +14,7 @@ using AndroidLSamples.Utils;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "Select an Image", ParentActivity=typeof(MainActivity))]			
+	[Activity (Label = "Bassnectar", ParentActivity=typeof(MainActivity), Theme = "@style/EvolveMaterialTheme")]			
 	public class ImageListActivity : Activity
 	{
 		GridView grid;

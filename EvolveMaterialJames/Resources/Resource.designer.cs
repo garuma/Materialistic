@@ -202,88 +202,97 @@ namespace AndroidLSamples
 			public const int bass4 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int bassnectar = 2130837508;
+			public const int bass5 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int btn_mtrl_alpha = 2130837509;
+			public const int bass6 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int btn_variant1 = 2130837510;
+			public const int bass7 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int btn_variant2 = 2130837511;
+			public const int bassnectar = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int btn_variant3 = 2130837512;
+			public const int btn_mtrl_alpha = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int btn_variant4 = 2130837513;
+			public const int btn_variant1 = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int caterpiller = 2130837514;
+			public const int btn_variant2 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int evolve = 2130837515;
+			public const int btn_variant3 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int flying_in_the_light_large = 2130837516;
+			public const int btn_variant4 = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int gear = 2130837517;
+			public const int caterpiller = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int ic_notification = 2130837518;
+			public const int evolve = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int Icon = 2130837519;
+			public const int flying_in_the_light_large = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int jelly_fish_2 = 2130837520;
+			public const int gear = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int lone_pine_sunset = 2130837521;
+			public const int ic_notification = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int look_me_in_the_eye = 2130837522;
+			public const int Icon = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int monkey = 2130837523;
+			public const int jelly_fish_2 = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int mycircle = 2130837524;
+			public const int lone_pine_sunset = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int over_there = 2130837525;
+			public const int look_me_in_the_eye = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int rainbow = 2130837526;
+			public const int monkey = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int rect_blue = 2130837527;
+			public const int mycircle = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int rect_orange = 2130837528;
+			public const int over_there = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int rect_red = 2130837529;
+			public const int rainbow = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int sample1 = 2130837530;
+			public const int rect_blue = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int sample2 = 2130837531;
+			public const int rect_orange = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int shape = 2130837532;
+			public const int rect_red = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int shape2 = 2130837533;
+			public const int sample1 = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int xamarin = 2130837534;
+			public const int sample2 = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int xamarin_white = 2130837535;
+			public const int shape = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int shape2 = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int xamarin = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int xamarin_white = 2130837538;
 			
 			static Drawable()
 			{
@@ -298,158 +307,143 @@ namespace AndroidLSamples
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0031
-			public const int action_edit = 2131427377;
-			
-			// aapt resource value: 0x7f0b0032
-			public const int action_save = 2131427378;
-			
-			// aapt resource value: 0x7f0b0030
-			public const int action_save2 = 2131427376;
-			
-			// aapt resource value: 0x7f0b0019
-			public const int add = 2131427353;
-			
-			// aapt resource value: 0x7f0b001b
-			public const int animate = 2131427355;
-			
-			// aapt resource value: 0x7f0b001c
-			public const int animate_bottom = 2131427356;
-			
-			// aapt resource value: 0x7f0b000e
-			public const int apply_palette = 2131427342;
-			
-			// aapt resource value: 0x7f0b0002
-			public const int blocks = 2131427330;
-			
-			// aapt resource value: 0x7f0b0009
-			public const int box1 = 2131427337;
-			
-			// aapt resource value: 0x7f0b001e
-			public const int button1 = 2131427358;
-			
-			// aapt resource value: 0x7f0b001d
-			public const int checkBox1 = 2131427357;
-			
-			// aapt resource value: 0x7f0b0010
-			public const int colors = 2131427344;
+			// aapt resource value: 0x7f0b002c
+			public const int action_edit = 2131427372;
 			
 			// aapt resource value: 0x7f0b002d
-			public const int drawableAnimBtn = 2131427373;
-			
-			// aapt resource value: 0x7f0b0023
-			public const int editText1 = 2131427363;
-			
-			// aapt resource value: 0x7f0b0014
-			public const int extended = 2131427348;
-			
-			// aapt resource value: 0x7f0b0015
-			public const int extended_photo = 2131427349;
-			
-			// aapt resource value: 0x7f0b000a
-			public const int floating_shape = 2131427338;
-			
-			// aapt resource value: 0x7f0b000b
-			public const int floating_shape_2 = 2131427339;
-			
-			// aapt resource value: 0x7f0b0011
-			public const int grid = 2131427345;
-			
-			// aapt resource value: 0x7f0b0017
-			public const int high_priority = 2131427351;
-			
-			// aapt resource value: 0x7f0b000f
-			public const int horizontalScrollView = 2131427343;
-			
-			// aapt resource value: 0x7f0b000c
-			public const int image = 2131427340;
-			
-			// aapt resource value: 0x7f0b0027
-			public const int imageView = 2131427367;
-			
-			// aapt resource value: 0x7f0b002e
-			public const int imageview_item = 2131427374;
-			
-			// aapt resource value: 0x7f0b002c
-			public const int inkBtn = 2131427372;
-			
-			// aapt resource value: 0x7f0b002a
-			public const int layoutBtn = 2131427370;
-			
-			// aapt resource value: 0x7f0b0004
-			public const int main_layout = 2131427332;
-			
-			// aapt resource value: 0x7f0b0000
-			public const int myButton = 2131427328;
-			
-			// aapt resource value: 0x7f0b001a
-			public const int my_view = 2131427354;
-			
-			// aapt resource value: 0x7f0b000d
-			public const int name = 2131427341;
-			
-			// aapt resource value: 0x7f0b0020
-			public const int radioButton1 = 2131427360;
-			
-			// aapt resource value: 0x7f0b0021
-			public const int radioButton2 = 2131427361;
-			
-			// aapt resource value: 0x7f0b0022
-			public const int radioButton3 = 2131427362;
-			
-			// aapt resource value: 0x7f0b001f
-			public const int radioGroup1 = 2131427359;
-			
-			// aapt resource value: 0x7f0b0018
-			public const int recycler_view = 2131427352;
+			public const int action_save = 2131427373;
 			
 			// aapt resource value: 0x7f0b002b
-			public const int rippleBtn = 2131427371;
-			
-			// aapt resource value: 0x7f0b0026
-			public const int seekBar1 = 2131427366;
+			public const int action_save2 = 2131427371;
 			
 			// aapt resource value: 0x7f0b0012
-			public const int simple = 2131427346;
+			public const int add = 2131427346;
 			
-			// aapt resource value: 0x7f0b0013
-			public const int simple_photo = 2131427347;
+			// aapt resource value: 0x7f0b0014
+			public const int animate = 2131427348;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int spinner_visibility = 2131427350;
-			
-			// aapt resource value: 0x7f0b0024
-			public const int switch1 = 2131427364;
-			
-			// aapt resource value: 0x7f0b0005
-			public const int text = 2131427333;
-			
-			// aapt resource value: 0x7f0b0028
-			public const int textView = 2131427368;
-			
-			// aapt resource value: 0x7f0b0001
-			public const int textView1 = 2131427329;
-			
-			// aapt resource value: 0x7f0b0029
-			public const int textView2 = 2131427369;
-			
-			// aapt resource value: 0x7f0b002f
-			public const int textview_name = 2131427375;
-			
-			// aapt resource value: 0x7f0b0025
-			public const int toggleButton1 = 2131427365;
-			
-			// aapt resource value: 0x7f0b0006
-			public const int view1 = 2131427334;
+			// aapt resource value: 0x7f0b0015
+			public const int animate_bottom = 2131427349;
 			
 			// aapt resource value: 0x7f0b0007
-			public const int view3 = 2131427335;
+			public const int apply_palette = 2131427335;
+			
+			// aapt resource value: 0x7f0b0017
+			public const int button1 = 2131427351;
+			
+			// aapt resource value: 0x7f0b0016
+			public const int checkBox1 = 2131427350;
+			
+			// aapt resource value: 0x7f0b0009
+			public const int colors = 2131427337;
+			
+			// aapt resource value: 0x7f0b0026
+			public const int drawableAnimBtn = 2131427366;
+			
+			// aapt resource value: 0x7f0b001c
+			public const int editText1 = 2131427356;
+			
+			// aapt resource value: 0x7f0b0027
+			public const int explode = 2131427367;
+			
+			// aapt resource value: 0x7f0b000c
+			public const int extended = 2131427340;
+			
+			// aapt resource value: 0x7f0b000d
+			public const int extended_photo = 2131427341;
+			
+			// aapt resource value: 0x7f0b0000
+			public const int grid = 2131427328;
+			
+			// aapt resource value: 0x7f0b0010
+			public const int high_priority = 2131427344;
 			
 			// aapt resource value: 0x7f0b0008
-			public const int view4 = 2131427336;
+			public const int horizontalScrollView = 2131427336;
+			
+			// aapt resource value: 0x7f0b0001
+			public const int image = 2131427329;
+			
+			// aapt resource value: 0x7f0b0020
+			public const int imageView = 2131427360;
+			
+			// aapt resource value: 0x7f0b0029
+			public const int imageview_item = 2131427369;
+			
+			// aapt resource value: 0x7f0b0025
+			public const int inkBtn = 2131427365;
+			
+			// aapt resource value: 0x7f0b0023
+			public const int layoutBtn = 2131427363;
+			
+			// aapt resource value: 0x7f0b0005
+			public const int main_layout = 2131427333;
+			
+			// aapt resource value: 0x7f0b0028
+			public const int move = 2131427368;
+			
+			// aapt resource value: 0x7f0b0013
+			public const int my_view = 2131427347;
+			
+			// aapt resource value: 0x7f0b0006
+			public const int name = 2131427334;
+			
+			// aapt resource value: 0x7f0b0019
+			public const int radioButton1 = 2131427353;
+			
+			// aapt resource value: 0x7f0b001a
+			public const int radioButton2 = 2131427354;
+			
+			// aapt resource value: 0x7f0b001b
+			public const int radioButton3 = 2131427355;
+			
+			// aapt resource value: 0x7f0b0018
+			public const int radioGroup1 = 2131427352;
+			
+			// aapt resource value: 0x7f0b0011
+			public const int recycler_view = 2131427345;
+			
+			// aapt resource value: 0x7f0b0024
+			public const int rippleBtn = 2131427364;
+			
+			// aapt resource value: 0x7f0b001f
+			public const int seekBar1 = 2131427359;
+			
+			// aapt resource value: 0x7f0b000a
+			public const int simple = 2131427338;
+			
+			// aapt resource value: 0x7f0b000b
+			public const int simple_photo = 2131427339;
+			
+			// aapt resource value: 0x7f0b000f
+			public const int spinner_visibility = 2131427343;
+			
+			// aapt resource value: 0x7f0b001d
+			public const int switch1 = 2131427357;
+			
+			// aapt resource value: 0x7f0b0021
+			public const int textView = 2131427361;
+			
+			// aapt resource value: 0x7f0b000e
+			public const int textView1 = 2131427342;
+			
+			// aapt resource value: 0x7f0b0022
+			public const int textView2 = 2131427362;
+			
+			// aapt resource value: 0x7f0b002a
+			public const int textview_name = 2131427370;
+			
+			// aapt resource value: 0x7f0b001e
+			public const int toggleButton1 = 2131427358;
+			
+			// aapt resource value: 0x7f0b0002
+			public const int view1 = 2131427330;
 			
 			// aapt resource value: 0x7f0b0003
-			public const int xamarin = 2131427331;
+			public const int view3 = 2131427331;
+			
+			// aapt resource value: 0x7f0b0004
+			public const int view4 = 2131427332;
 			
 			static Id()
 			{
@@ -474,43 +468,40 @@ namespace AndroidLSamples
 			public const int activity_card = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int activity_elevation = 2130903043;
+			public const int activity_image_detail = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int activity_image_detail = 2130903044;
+			public const int activity_image_list = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int activity_image_list = 2130903045;
+			public const int activity_notifications = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int activity_notifications = 2130903046;
+			public const int activity_recycler_view = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int activity_recycler_view = 2130903047;
+			public const int activity_recycler_view_add_remove = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int activity_recycler_view_add_remove = 2130903048;
+			public const int activity_reveal = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int activity_reveal = 2130903049;
+			public const int activity_themes = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int activity_themes = 2130903050;
+			public const int grid_item = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int grid_item = 2130903051;
+			public const int item = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int item = 2130903052;
+			public const int main = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int main = 2130903053;
+			public const int palette_item = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int palette_item = 2130903054;
-			
-			// aapt resource value: 0x7f03000f
-			public const int recycleritem_card = 2130903055;
+			public const int recycleritem_card = 2130903054;
 			
 			static Layout()
 			{
@@ -592,6 +583,12 @@ namespace AndroidLSamples
 			
 			// aapt resource value: 0x7f070004
 			public const int MaterialLight = 2131165188;
+			
+			// aapt resource value: 0x7f07000a
+			public const int TransparentTheme = 2131165194;
+			
+			// aapt resource value: 0x7f07000b
+			public const int TransparentTheme_ActionBar = 2131165195;
 			
 			static Style()
 			{

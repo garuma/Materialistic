@@ -7,59 +7,52 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Transitions;
+using AndroidLSamples.Utils;
 
 namespace AndroidLSamples
 {
 	[Activity (Label = "Move Image", ParentActivity=typeof(MainActivity))]
 	public class AnimationsActivityMoveImage1 : Activity
 	{
-		int count = 1;
-
-		protected override void OnCreate (Bundle bundle)
+		PhotoItem item;
+		TextView name;
+		LinearLayout colors;
+		protected async override void OnCreate (Bundle bundle)
 		{
-			if ((int)Build.VERSION.SdkInt >= 20) {
-				//Will request content Transitions with the Move Image Transition
-				//This can also be specified in the Style
-				Window.RequestFeature (WindowFeatures.ContentTransitions);
-				Window.SharedElementEnterTransition = new MoveImage ();
-				Window.SharedElementExitTransition = new MoveImage();
-				Window.AllowExitTransitionOverlap = true;
-				Window.AllowEnterTransitionOverlap = true;
-			}
+
+
+			Window.RequestFeature (WindowFeatures.ContentTransitions);
+			Window.SharedElementEnterTransition = new Explode ();
+			Window.SharedElementExitTransition = new Explode();
+			Window.AllowExitTransitionOverlap = true;
+			Window.AllowEnterTransitionOverlap = true;
+
 			base.OnCreate (bundle);
+
+			base.OnCreate (bundle);
+			SetContentView (Resource.Layout.activity_image_detail);
+			ActionBar.SetDisplayHomeAsUpEnabled (true);
+			ActionBar.SetDisplayShowHomeEnabled (true);
+			ActionBar.SetIcon (Android.Resource.Color.Transparent);
+
+			var id = Intent.GetIntExtra ("id", 0);
+			item = Photos.GetPhoto (id);
+			if (item == null)
+				return;
+
+			name = FindViewById<TextView> (Resource.Id.name);
+			colors = FindViewById<LinearLayout> (Resource.Id.colors);
+			var image = FindViewById<ImageView> (Resource.Id.image);
+
+			image.SetImageResource (item.Image);
+			name.Text =  item.Name;
+			ActionBar.Title = item.Author;
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.activity_animations_1);
 			ActionBar.SetDisplayHomeAsUpEnabled (true);
 			ActionBar.SetDisplayShowHomeEnabled (true);
 			ActionBar.SetIcon (Android.Resource.Color.Transparent);
-
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
-			};
-
-			var xamarin = FindViewById<ImageView> (Resource.Id.xamarin);
-			xamarin.Click += (sender, e) => 
-			{
-				var intent = new Intent(this, typeof(AnimationsActivityMoveImage2));
-				if ((int)Build.VERSION.SdkInt >= 20) {
-
-					//specify the control to move and the view id
-					//this is set with android:viewName="xamarin" 
-					var options = ActivityOptions.MakeSceneTransitionAnimation(this, xamarin, "xamarin");
-					StartActivity(intent, options.ToBundle());
-				}
-				else
-				{
-					StartActivity(intent);
-				}
-				 
-			};
-
 		}
 	}
 }

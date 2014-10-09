@@ -12,7 +12,7 @@ using Android.Graphics.Drawables;
 
 namespace AndroidLSamples
 {
-	[Activity (Label = "Palette Example", ParentActivity=typeof(MainActivity))]			
+	[Activity (Label = "Palette Example", ParentActivity=typeof(MainActivity), Theme = "@style/EvolveMaterialTheme")]			
 	public class ImageDetailPaletteActivity : Activity, Palette.IPaletteAsyncListener
 	{
 		PhotoItem item;
@@ -36,9 +36,11 @@ namespace AndroidLSamples
 			var image = FindViewById<ImageView> (Resource.Id.image);
 
 			image.SetImageResource (item.Image);
-			name.Text = ActionBar.Title = item.Name;
-
-			FindViewById<Button> (Resource.Id.apply_palette).Click += async (sender, e) => {
+			name.Text =  item.Name;
+			ActionBar.Title = item.Author;
+			var paletteButton = FindViewById<Button> (Resource.Id.apply_palette);
+			paletteButton.Click += async (sender, e) => {
+				paletteButton.Visibility = ViewStates.Gone;
 
 				var bitmap = await BitmapFactory.DecodeResourceAsync (Resources, item.Image);
 
@@ -91,6 +93,7 @@ namespace AndroidLSamples
 			foreach (var p in palette.Pallete) {
 				if (p == null)
 					continue;
+
 
 				var view = new View (this);
 				view.SetBackgroundColor (new Color (p.Rgb));
