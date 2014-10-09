@@ -84,7 +84,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\drawable\rect_blue.xml" />
     <AndroidResource Include="Resources\drawable\rect_red.xml" />
     <AndroidResource Include="Resources\drawable\rect_orange.xml" />
@@ -147,6 +146,10 @@
     <AndroidResource Include="Resources\drawable-nodpi\bass7.jpg" />
     <AndroidResource Include="Resources\drawable-nodpi\bass6.jpg" />
     <AndroidResource Include="Resources\drawable-nodpi\bass5.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
