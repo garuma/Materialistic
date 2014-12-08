@@ -24,7 +24,7 @@ namespace AndroidLSamples
 			Window.RequestFeature (WindowFeatures.ContentTransitions);
 			Window.EnterTransition = new Explode ();
 			Window.ExitTransition = new Explode ();
-			Window.AllowExitTransitionOverlap = true;
+			Window.AllowReturnTransitionOverlap = true;
 			Window.AllowEnterTransitionOverlap = true;
 
 			base.OnCreate (bundle);
@@ -39,7 +39,7 @@ namespace AndroidLSamples
 			grid.ItemClick += (sender, e) => {
 				var intent = new Intent(this, typeof(AnimationsActivity2));
 				intent.PutExtra("id", Photos.Items[e.Position].Id);
-				StartActivity(intent);
+				StartActivity(intent, ActivityOptions.MakeSceneTransitionAnimation(this).ToBundle());
 			};
 
 			// Create your application here

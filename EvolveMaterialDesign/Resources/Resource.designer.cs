@@ -53,6 +53,33 @@ namespace EvolveMaterialDesign
 			// aapt resource value: 0x7f010001
 			public const int cardCornerRadius = 2130771969;
 			
+			// aapt resource value: 0x7f010002
+			public const int cardElevation = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cardMaxElevation = 2130771971;
+			
+			// aapt resource value: 0x7f010005
+			public const int cardPreventCornerOverlap = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int cardUseCompatPadding = 2130771972;
+			
+			// aapt resource value: 0x7f010006
+			public const int contentPadding = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPaddingBottom = 2130771978;
+			
+			// aapt resource value: 0x7f010007
+			public const int contentPaddingLeft = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int contentPaddingRight = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int contentPaddingTop = 2130771977;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -116,13 +143,13 @@ namespace EvolveMaterialDesign
 		{
 			
 			// aapt resource value: 0x7f060000
-			public const int cardview_default_radius = 2131099648;
+			public const int cardview_compat_inset_shadow = 2131099648;
 			
 			// aapt resource value: 0x7f060001
-			public const int cardview_elevation = 2131099649;
+			public const int cardview_default_elevation = 2131099649;
 			
 			// aapt resource value: 0x7f060002
-			public const int cardview_shadow_size = 2131099650;
+			public const int cardview_default_radius = 2131099650;
 			
 			static Dimension()
 			{
@@ -180,37 +207,40 @@ namespace EvolveMaterialDesign
 			public const int btn_variant4 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int chris = 2130837518;
+			public const int btn_variant5 = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int icon = 2130837519;
+			public const int chris = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int james = 2130837520;
+			public const int icon = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int jeremie = 2130837521;
+			public const int james = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int monkey1 = 2130837522;
+			public const int jeremie = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int monkey2 = 2130837523;
+			public const int monkey1 = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int monkey3 = 2130837524;
+			public const int monkey2 = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int monkey_mask = 2130837525;
+			public const int monkey3 = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int monkey_ripple = 2130837526;
+			public const int monkey_mask = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int spaced_list_divider = 2130837527;
+			public const int monkey_ripple = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int tortilla_cat = 2130837528;
+			public const int spaced_list_divider = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int tortilla_cat = 2130837529;
 			
 			static Drawable()
 			{
@@ -225,26 +255,26 @@ namespace EvolveMaterialDesign
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f09001a
-			public const int addState = 2131296282;
-			
-			// aapt resource value: 0x7f090014
-			public const int avatarView1 = 2131296276;
-			
-			// aapt resource value: 0x7f090016
-			public const int avatarView2 = 2131296278;
-			
-			// aapt resource value: 0x7f090017
-			public const int avatarView3 = 2131296279;
+			// aapt resource value: 0x7f09001e
+			public const int addState = 2131296286;
 			
 			// aapt resource value: 0x7f090018
-			public const int avatarView4 = 2131296280;
+			public const int avatarView1 = 2131296280;
 			
-			// aapt resource value: 0x7f09000e
-			public const int button1 = 2131296270;
+			// aapt resource value: 0x7f09001a
+			public const int avatarView2 = 2131296282;
 			
-			// aapt resource value: 0x7f090013
-			public const int button2 = 2131296275;
+			// aapt resource value: 0x7f09001b
+			public const int avatarView3 = 2131296283;
+			
+			// aapt resource value: 0x7f09001c
+			public const int avatarView4 = 2131296284;
+			
+			// aapt resource value: 0x7f090012
+			public const int button1 = 2131296274;
+			
+			// aapt resource value: 0x7f090017
+			public const int button2 = 2131296279;
 			
 			// aapt resource value: 0x7f090002
 			public const int checkBox1 = 2131296258;
@@ -252,8 +282,8 @@ namespace EvolveMaterialDesign
 			// aapt resource value: 0x7f090008
 			public const int checkBox2 = 2131296264;
 			
-			// aapt resource value: 0x7f09000c
-			public const int drawableAnimBtn = 2131296268;
+			// aapt resource value: 0x7f09000d
+			public const int drawableAnimBtn = 2131296269;
 			
 			// aapt resource value: 0x7f090000
 			public const int frameLayout1 = 2131296256;
@@ -261,17 +291,17 @@ namespace EvolveMaterialDesign
 			// aapt resource value: 0x7f090007
 			public const int frameLayout2 = 2131296263;
 			
-			// aapt resource value: 0x7f090010
-			public const int imageButton1 = 2131296272;
-			
-			// aapt resource value: 0x7f090011
-			public const int imageButton2 = 2131296273;
-			
-			// aapt resource value: 0x7f09000b
-			public const int inkBtn = 2131296267;
+			// aapt resource value: 0x7f090014
+			public const int imageButton1 = 2131296276;
 			
 			// aapt resource value: 0x7f090015
-			public const int item_text_primary = 2131296277;
+			public const int imageButton2 = 2131296277;
+			
+			// aapt resource value: 0x7f09000c
+			public const int inkBtn = 2131296268;
+			
+			// aapt resource value: 0x7f090019
+			public const int item_text_primary = 2131296281;
 			
 			// aapt resource value: 0x7f090009
 			public const int layoutBtn = 2131296265;
@@ -279,14 +309,20 @@ namespace EvolveMaterialDesign
 			// aapt resource value: 0x7f090001
 			public const int linearLayout1 = 2131296257;
 			
-			// aapt resource value: 0x7f09000d
-			public const int panel1 = 2131296269;
+			// aapt resource value: 0x7f090011
+			public const int panel1 = 2131296273;
 			
-			// aapt resource value: 0x7f09000f
-			public const int panel2 = 2131296271;
+			// aapt resource value: 0x7f090013
+			public const int panel2 = 2131296275;
 			
-			// aapt resource value: 0x7f090012
-			public const int panel3 = 2131296274;
+			// aapt resource value: 0x7f090016
+			public const int panel3 = 2131296278;
+			
+			// aapt resource value: 0x7f09000e
+			public const int paperContainer = 2131296270;
+			
+			// aapt resource value: 0x7f09000a
+			public const int paperCraftBtn = 2131296266;
 			
 			// aapt resource value: 0x7f090004
 			public const int radioButton1 = 2131296260;
@@ -300,11 +336,17 @@ namespace EvolveMaterialDesign
 			// aapt resource value: 0x7f090003
 			public const int radioGroup1 = 2131296259;
 			
-			// aapt resource value: 0x7f090019
-			public const int removeState = 2131296281;
+			// aapt resource value: 0x7f09001d
+			public const int removeState = 2131296285;
 			
-			// aapt resource value: 0x7f09000a
-			public const int rippleBtn = 2131296266;
+			// aapt resource value: 0x7f09000b
+			public const int rippleBtn = 2131296267;
+			
+			// aapt resource value: 0x7f09000f
+			public const int view1 = 2131296271;
+			
+			// aapt resource value: 0x7f090010
+			public const int view2 = 2131296272;
 			
 			static Id()
 			{
@@ -329,10 +371,13 @@ namespace EvolveMaterialDesign
 			public const int Main = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int RippleFeedbackLayout = 2130903043;
+			public const int PaperCraftLayout = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SpacedLayout = 2130903044;
+			public const int RippleFeedbackLayout = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int SpacedLayout = 2130903045;
 			
 			static Layout()
 			{
@@ -394,13 +439,49 @@ namespace EvolveMaterialDesign
 			public static int[] CardView = new int[]
 			{
 					2130771968,
-					2130771969};
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
 			
 			// aapt resource value: 0
 			public const int CardView_cardBackgroundColor = 0;
 			
 			// aapt resource value: 1
 			public const int CardView_cardCornerRadius = 1;
+			
+			// aapt resource value: 2
+			public const int CardView_cardElevation = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardMaxElevation = 3;
+			
+			// aapt resource value: 5
+			public const int CardView_cardPreventCornerOverlap = 5;
+			
+			// aapt resource value: 4
+			public const int CardView_cardUseCompatPadding = 4;
+			
+			// aapt resource value: 6
+			public const int CardView_contentPadding = 6;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingBottom = 10;
+			
+			// aapt resource value: 7
+			public const int CardView_contentPaddingLeft = 7;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPaddingRight = 8;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingTop = 9;
 			
 			static Styleable()
 			{

@@ -21,6 +21,6 @@ Global
 		{B488BF17-5730-4FE4-86EA-3FACB1E470BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = EvolveMaterialJames\EvolveMaterialJames.csproj
+		StartupItem = EvolveMaterialDesign\EvolveMaterialDesign.csproj
 	EndGlobalSection
 EndGlobal

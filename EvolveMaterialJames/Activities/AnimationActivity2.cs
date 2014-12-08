@@ -19,7 +19,7 @@ namespace AndroidLSamples
 				Window.RequestFeature (WindowFeatures.ContentTransitions);
 				Window.EnterTransition = new Explode ();
 				Window.ExitTransition = new Explode ();
-				Window.AllowExitTransitionOverlap = true;
+			Window.AllowReturnTransitionOverlap = true;
 				Window.AllowEnterTransitionOverlap = true;
 
 			base.OnCreate (bundle);

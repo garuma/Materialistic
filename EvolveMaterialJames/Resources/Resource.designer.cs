@@ -70,7 +70,34 @@ namespace AndroidLSamples
 			public const int cardCornerRadius = 2130771969;
 			
 			// aapt resource value: 0x7f010002
-			public const int ratio = 2130771970;
+			public const int cardElevation = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cardMaxElevation = 2130771971;
+			
+			// aapt resource value: 0x7f010005
+			public const int cardPreventCornerOverlap = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int cardUseCompatPadding = 2130771972;
+			
+			// aapt resource value: 0x7f010006
+			public const int contentPadding = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPaddingBottom = 2130771978;
+			
+			// aapt resource value: 0x7f010007
+			public const int contentPaddingLeft = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int contentPaddingRight = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int contentPaddingTop = 2130771977;
+			
+			// aapt resource value: 0x7f01000b
+			public const int ratio = 2130771979;
 			
 			static Attribute()
 			{
@@ -165,13 +192,13 @@ namespace AndroidLSamples
 			public const int activity_margin = 2131099651;
 			
 			// aapt resource value: 0x7f060000
-			public const int cardview_default_radius = 2131099648;
+			public const int cardview_compat_inset_shadow = 2131099648;
 			
 			// aapt resource value: 0x7f060001
-			public const int cardview_elevation = 2131099649;
+			public const int cardview_default_elevation = 2131099649;
 			
 			// aapt resource value: 0x7f060002
-			public const int cardview_shadow_size = 2131099650;
+			public const int cardview_default_radius = 2131099650;
 			
 			// aapt resource value: 0x7f060004
 			public const int grid_spacing = 2131099652;
@@ -244,7 +271,7 @@ namespace AndroidLSamples
 			public const int ic_notification = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int Icon = 2130837522;
+			public const int icon = 2130837522;
 			
 			// aapt resource value: 0x7f020013
 			public const int jelly_fish_2 = 2130837523;
@@ -609,7 +636,16 @@ namespace AndroidLSamples
 			public static int[] CardView = new int[]
 			{
 					2130771968,
-					2130771969};
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
 			
 			// aapt resource value: 0
 			public const int CardView_cardBackgroundColor = 0;
@@ -617,9 +653,36 @@ namespace AndroidLSamples
 			// aapt resource value: 1
 			public const int CardView_cardCornerRadius = 1;
 			
+			// aapt resource value: 2
+			public const int CardView_cardElevation = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardMaxElevation = 3;
+			
+			// aapt resource value: 5
+			public const int CardView_cardPreventCornerOverlap = 5;
+			
+			// aapt resource value: 4
+			public const int CardView_cardUseCompatPadding = 4;
+			
+			// aapt resource value: 6
+			public const int CardView_contentPadding = 6;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingBottom = 10;
+			
+			// aapt resource value: 7
+			public const int CardView_contentPaddingLeft = 7;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPaddingRight = 8;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingTop = 9;
+			
 			public static int[] HeightAdjustableImageView = new int[]
 			{
-					2130771970};
+					2130771979};
 			
 			// aapt resource value: 0
 			public const int HeightAdjustableImageView_ratio = 0;

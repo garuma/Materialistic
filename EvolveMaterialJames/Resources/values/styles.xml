@@ -19,13 +19,13 @@
 	    <item name="android:colorAccent">@color/accent</item>
 	</style>
 
-  <style name="MaterialLight" parent="android:Theme.Material.Light">
+  <style name="MaterialLight" parent="android:Theme.Material.Light.DarkActionBar">
   </style>
 
   <style name="MaterialDark" parent="android:Theme.Material">
   </style>
 
-   <style name="AppThemeLight" parent="android:Theme.Material.Light">
+   <style name="AppThemeLight" parent="android:Theme.Material.Light.DarkActionBar">
     <!-- Main theme colors -->
     <!--   your app's branding color (for the app bar) -->
     <item name="android:colorPrimary">@color/primary</item>
@@ -36,7 +36,7 @@
   </style>
 
 
-   <style name="AppThemeLightNoDrop" parent="android:Theme.Material.Light">
+   <style name="AppThemeLightNoDrop" parent="android:Theme.Material.Light.DarkActionBar">
     <!-- Main theme colors -->
     <!--   your app's branding color (for the app bar) -->
     <item name="android:colorPrimary">@color/primary</item>

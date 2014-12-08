@@ -16,7 +16,7 @@
             android:id="@+id/imageView"
             android:src="@drawable/sample1"
             android:layout_alignParentTop="true"
-            android:viewName="album" />
+            android:transitionName="album" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

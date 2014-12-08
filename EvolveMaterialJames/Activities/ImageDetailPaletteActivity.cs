@@ -67,8 +67,8 @@ namespace AndroidLSamples
 
 			//must check each palette as there is no guarantee
 			//that it was generated.
-			if (palette.LightVibrantColor != null) {
-				var lightVibrant = new Color (palette.LightVibrantColor.Rgb);
+			if (palette.LightVibrantSwatch != null) {
+				var lightVibrant = new Color (palette.LightVibrantSwatch.Rgb);
 				name.SetBackgroundColor(lightVibrant);
 				var color = new Color (lightVibrant);
 				ActionBar.SetBackgroundDrawable (new ColorDrawable(color));
@@ -76,8 +76,8 @@ namespace AndroidLSamples
 				Window.SetStatusBarColor (color);
 			}
 
-			if (palette.DarkVibrantColor != null) {
-				var darkVibrant = new Color (palette.DarkVibrantColor.Rgb);
+			if (palette.DarkVibrantSwatch != null) {
+				var darkVibrant = new Color (palette.DarkVibrantSwatch.Rgb);
 				name.SetTextColor (darkVibrant);
 				var actionBarTitleId = Android.Content.Res.Resources.System.GetIdentifier ("action_bar_title", "id", "android");
 				if (actionBarTitleId > 0) {
@@ -95,7 +95,7 @@ namespace AndroidLSamples
 			var layoutParams = new LinearLayout.LayoutParams(30,30);
 			//Loop through each of the palettes available
 			//and put them as a small square
-			foreach (var p in palette.Pallete) {
+			foreach (var p in palette.Swatches) {
 				if (p == null)
 					continue;
 

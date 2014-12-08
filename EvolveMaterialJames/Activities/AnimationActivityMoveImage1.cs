@@ -22,9 +22,9 @@ namespace AndroidLSamples
 
 
 			Window.RequestFeature (WindowFeatures.ContentTransitions);
-			Window.SharedElementEnterTransition = new MoveImage ();
-			Window.SharedElementExitTransition = new MoveImage();
-			Window.AllowExitTransitionOverlap = true;
+			Window.SharedElementEnterTransition = new ChangeImageTransform ();
+			Window.SharedElementExitTransition = new ChangeImageTransform();
+			Window.AllowReturnTransitionOverlap = true;
 			Window.AllowEnterTransitionOverlap = true;
 
 			base.OnCreate (bundle);

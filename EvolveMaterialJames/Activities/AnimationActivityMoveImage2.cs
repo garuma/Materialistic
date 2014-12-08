@@ -15,14 +15,14 @@ namespace AndroidLSamples
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
-			if ((int)Build.VERSION.SdkInt >= 20) {
+			if ((int)Build.VERSION.SdkInt >= 21) {
 				//Will request content Transitions with the Move Image Transition
 				//This can also be specified in the Style
 				//the rest is handled by the system with the shared viewname
 				Window.RequestFeature (WindowFeatures.ContentTransitions);
-				Window.SharedElementEnterTransition = new MoveImage ();
-				Window.SharedElementExitTransition = new MoveImage();
-				Window.AllowExitTransitionOverlap = true;
+				Window.SharedElementEnterTransition = new ChangeImageTransform ();
+				Window.SharedElementExitTransition = new ChangeImageTransform();
+				Window.AllowReturnTransitionOverlap = true;
 				Window.AllowEnterTransitionOverlap = true;
 			}
 			base.OnCreate (bundle);

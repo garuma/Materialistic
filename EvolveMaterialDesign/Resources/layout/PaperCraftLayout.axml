@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#e4e4e4"
-    android:id="@+android:id/paperContainer">
+    android:id="@+id/paperContainer">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0px"
