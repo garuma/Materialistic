@@ -82,10 +82,6 @@
     <AndroidResource Include="Resources\layout\RippleFeedbackLayout.axml" />
     <AndroidResource Include="Resources\drawable-nodpi\bread_cat.png" />
     <AndroidResource Include="Resources\drawable-nodpi\tortilla_cat.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\btn_mtrl_alpha.9.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\btn_mtrl_alpha.9.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\btn_mtrl_alpha.9.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\btn_mtrl_alpha.9.png" />
     <AndroidResource Include="Resources\drawable\btn_variant1.xml" />
     <AndroidResource Include="Resources\drawable\btn_variant2.xml" />
     <AndroidResource Include="Resources\drawable\btn_variant3.xml" />
